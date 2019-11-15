@@ -20,7 +20,7 @@ export default class SettingsScreen extends React.Component {
       currentUserId: undefined,
       client: undefined,
       tasks: undefined,
-      refreshing: true
+      refreshing: false
     };
     this._loadClient = this._loadClient.bind(this);
   }
