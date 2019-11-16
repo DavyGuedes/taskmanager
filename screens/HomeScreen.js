@@ -68,7 +68,7 @@ export default class HomeScreen extends React.Component {
         />
         <TextInput
           style={{
-            color: "lightgray",
+            color: "gray",
             fontSize: 20,
             marginTop: height / 2 - 60
           }}
